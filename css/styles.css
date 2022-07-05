@@ -1,0 +1,273 @@
+:root {
+  /* fonts */
+  --main-font: roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* text colors */
+
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --additional-color: #ffffff;
+  --text-part-logo: #000000;
+
+  /* bg colors */
+
+  --dark-bg-cl: #2f303a;
+  --light-bg-cl: #f5f4fa;
+  --bg-project: #eeeeee;
+  --bg-header: #ececec;
+
+  /* others */
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  background-color: var(--additional-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* reset styles */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+/* Logo header */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--text-part-logo);
+}
+
+/* nav */
+
+.nav-list .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+
+/* contact-header */
+
+.Contact-list .link {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.Contact-list .link:hover,
+.Contact-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--dark-bg-cl);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--additional-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  background-color: var(--accent-color);
+
+  color: var(--additional-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+  color: var(--additional-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.description {
+  line-height: 1.71;
+}
+
+/* Section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+/* team */
+
+.team {
+  background-color: var(--light-bg-cl);
+}
+
+.team .name-item {
+  background-color: var(--additional-color);
+}
+
+.team .name-list {
+  color: var(--title-text-color);
+}
+
+.name-title {
+  font-weight: 500;
+  line-height: 1.19;
+
+  color: var(--title-text-color);
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primery-text-color);
+}
+/* Portfolio */
+
+/* main for portfolio */
+
+/* Filters */
+
+.btn-filter .btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 00.03em;
+  text-align: center;
+
+  cursor: pointer;
+
+  background-color: var(--light-bg-cl);
+  color: var(--title-text-color);
+}
+
+.btn-filter .btn:hover,
+.btn-filter .btn:focus {
+  background-color: var(--accent-color);
+  color: var(--additional-color);
+}
+
+/* Projects section  */
+
+.Project .link {
+  background-color: var(--bg-project);
+}
+
+.Project .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.Project .parceling {
+  font-weight: 400;
+  line-height: 1.88;
+
+  color: var(--primery-text-color);
+}
+/* footer */
+
+.footer {
+  background-color: var(--dark-bg-cl);
+}
+
+/* logo footer */
+
+.logo-footer {
+  color: var(--additional-color);
+}
+
+/* contacts footer */
+
+.adress-list .link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+
+  color: var(--additional-color);
+}
+
+.adress-list .link:hover,
+.adress-list .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .contact-link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts .contact-link:hover,
+.contacts .contact-link:focus {
+  color: var(--accent-color);
+}
