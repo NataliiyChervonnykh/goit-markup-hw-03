@@ -29,20 +29,20 @@
     <!--Header section-->
 
     <header class="header-page">
-      <div class="container post-header">
+      <div class="container header-container">
         <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
 
         <!-- Nav -->
 
-        <nav>
+        <nav class="header-nav">
           <ul class="nav-list list">
-            <li class="item">
+            <li class="nav-item">
               <a class="link current" href="./index.html">Студия</a>
             </li>
-            <li class="item">
+            <li class="nav-item">
               <a class="link" href="./Portfolio.html">Портфолио</a>
             </li>
-            <li class="item">
+            <li class="nav-item">
               <a class="link" href="./index.html">Контакты</a>
             </li>
           </ul>
@@ -50,8 +50,8 @@
 
         <!-- Contacts -->
 
-        <ul class="Contact-list list">
-          <li class="item">
+        <ul class="contact-list list">
+          <li class="item contact-mail">
             <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
@@ -141,53 +141,52 @@
 
       <!--team section-->
 
-      <section class="team">
+      <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="name-list list">
             <li class="name-item">
               <img
-                class="team-img"
                 src="./images/our_team/img_1.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
                 height="260"
               />
-              <h3 class="name-title">Игорь Демьяненко</h3>
-              <p class="job-title" lang="en">Product Designer</p>
+              <div class="name-content">
+                <h3 class="name-title">Игорь Демьяненко</h3>
+                <p class="job-title" lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li class="name-item">
+              <img src="./images/our_team/img_2.jpg" alt="Ольга Репина" width="270" height="260" />
+              <div class="name-content">
+                <h3 class="name-title">Ольга Репина</h3>
+                <p class="job-title" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="name-item">
               <img
-                class="team-img"
-                src="./images/our_team/img_2.jpg"
-                alt="Ольга Репина"
-                width="270"
-                height="260"
-              />
-              <h3 class="name-title">Ольга Репина</h3>
-              <p class="job-title" lang="en">Frontend Developer</p>
-            </li>
-            <li class="name-item">
-              <img
-                class="team-img"
                 src="./images/our_team/img_3.jpg"
                 alt="Николай Тарасов"
                 width="270"
                 height="260"
               />
-              <h3 class="name-title">Николай Тарасов</h3>
-              <p class="job-title" lang="en">Marketing</p>
+              <div class="name-content">
+                <h3 class="name-title">Николай Тарасов</h3>
+                <p class="job-title" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="name-item">
               <img
-                class="team-img"
                 src="./images/our_team/img_4.jpg"
                 alt="Михаил Ермаков"
                 width="270"
                 height="260"
               />
-              <h3 class="name-title">Михаил Ермаков</h3>
-              <p class="job-title" lang="en">UI Designer</p>
+              <div class="name-content">
+                <h3 class="name-title">Михаил Ермаков</h3>
+                <p class="job-title" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
