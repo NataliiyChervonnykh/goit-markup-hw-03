@@ -110,7 +110,6 @@ img {
 
 .logo {
   display: block;
-  margin-top: 0;
   margin-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -130,7 +129,7 @@ img {
 }
 .nav-list {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 /* .nav-item {
@@ -319,6 +318,9 @@ img {
 
 .team .name-item {
   background-color: var(--additional-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* .name-item:nth-child(4n) {
@@ -331,8 +333,8 @@ img {
 } */
 
 .name-content {
-  padding: 30px 70px;
-  white-space: nowrap;
+  padding: 30px 0px;
+  text-align: center;
 }
 
 .name-title {
@@ -364,7 +366,7 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   gap: 8px;
 }
 
@@ -467,11 +469,10 @@ img {
 }
 
 .adress {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .adress .link {
-  font-weight: 400;
   line-height: 1.71;
 
   color: var(--additional-color);
